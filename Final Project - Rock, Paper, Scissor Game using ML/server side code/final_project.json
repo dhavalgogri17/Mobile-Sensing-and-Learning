@@ -1,0 +1,164 @@
+{
+  "register_request": {
+    "task": "register",
+    "dsid": 44,
+    "gameName": "Mindfreak",
+    "userName": "rishab.vaishya@gmail.com",
+    "password": "passowrd",
+    "step": 500,
+    "stepDate": "2018-12-10"
+  },
+  "register_response": {
+    "status": "success",
+    "coins":1000
+  },
+  "updateInfo_request": {
+    "task": "updateInfo",
+    "dsid": 44,
+    "gameName": "Mindfreak",
+    "userName": "rishab.vaishya@gmail.com",
+    "password": "passowrd",
+    "step": 500,
+    "stepDate": "2018-12-10"
+  },
+  "updateInfo_response": {
+    "status": "success"
+  },
+  "EnterGame_request": {
+    "task": "EnterGame",
+    "userName": "rishab.vaishya@gmail.com"
+  },
+  "EnterGame_response": {
+    "players": [
+      {
+        "gameName": "Mindfreak",
+        "userName": "rishab.vaishya@gmail.com"
+      },
+      {
+        "gameName": "Mindfreak",
+        "userName": "rishab.vaishya@gmail.com"
+      },
+      {
+        "gameName": "Mindfreak",
+        "userName": "rishab.vaishya@gmail.com"
+      },
+      {
+        "gameName": "Mindfreak",
+        "userName": "rishab.vaishya@gmail.com"
+      },
+      {
+        "gameName": "Mindfreak",
+        "userName": "rishab.vaishya@gmail.com"
+      }
+    ]
+  },
+  "challangeOpponent_request": {
+    "task": "challangeOpponent",
+    "userName": "rishab.vaishya@gmail.com",
+    "opponent": "gameName"
+  },
+  "challangeOpponent_response": {
+    "status": "accepted"
+  },
+  "s_opponentRespond_request": {
+    "task": "opponentRespond",
+    "gameName": "Mindfreak",
+    "userName": "rishab.vaishya@gmail.com"
+  },
+  "s_opponentRespond_response": {
+    "repsond": "accept"
+  },
+  "sendLabel_request": {
+    "task": "sendLabel",
+    "userName": "rishab.vaishya@gmail.com",
+    "game": 1,
+    "round": 3,
+    "label": "rock"
+  },
+  "sendLabel_response": {
+    "round": [
+      {
+        "you": "rock",
+        "opponent": "scissor",
+        "winner": "you"
+      },
+      {
+        "you": "paper",
+        "opponent": "pending",
+        "winner": "pending"
+      }
+    ],
+    "gameWinner":"pending"
+  },
+  
+  
+  
+  
+  
+  
+  "tornamenGame": {
+    "task": "gameMove"
+    "userName": "rishab.vaishya@gmail.com",
+    "level": 1,
+    "game": 3,
+    "round": 3,
+    "label": "rock"
+  },
+  "tornamentGame": {
+    "userName": "rishab.vaishya@gmail.com",
+    "level": 1,
+    "game": 3,
+    "round": 3,
+    "label": "rock"
+  },
+  "predictOne": {
+    "feature": "base64 string...",
+    "dsid": 1
+  }
+}
+
+{ "gameID":count,
+                "winner":"pending",
+                "players": [
+                     {
+                         "gameName": "gameName",
+                         "userName": "userName",
+                         "points": 0
+                     },
+                     {
+                         "gameName": "gameNames",
+                         "userName": "userName",
+                         "points": 0
+                     }],
+                "rounds":[
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  },
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  },
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  },
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  },
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  },
+                  {
+                     "gameName": "pending",
+                     "userName": "pending",
+                     "points": "pending"
+                  }
+                ]}
