@@ -1,0 +1,6 @@
+framework module Pods_Bluetooth_Arduino_SensingUITests {
+  umbrella header "Pods-Bluetooth_Arduino_SensingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

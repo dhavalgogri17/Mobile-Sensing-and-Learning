@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719DDCCB4A820EAF71DC0A6F /* Pods_Bluetooth_Arduino_SensingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF409E1CFFCE420D11EC93B9 /* Pods_Bluetooth_Arduino_SensingTests.framework */; };
+		795D7331A94D6EF0439EE986 /* Pods_Bluetooth_Arduino_SensingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47604DBF85FBE84C70C8705A /* Pods_Bluetooth_Arduino_SensingUITests.framework */; };
+		8A6804AA217E5A1F00263F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804A9217E5A1F00263F43 /* AppDelegate.swift */; };
+		8A6804AC217E5A1F00263F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804AB217E5A1F00263F43 /* ViewController.swift */; };
+		8A6804AF217E5A1F00263F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6804AD217E5A1F00263F43 /* Main.storyboard */; };
+		8A6804B1217E5A2000263F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6804B0217E5A2000263F43 /* Assets.xcassets */; };
+		8A6804B4217E5A2000263F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6804B2217E5A2000263F43 /* LaunchScreen.storyboard */; };
+		8A6804BF217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804BE217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.swift */; };
+		8A6804CA217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804C9217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.swift */; };
+		8A6804D9217E5CA300263F43 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804D7217E5CA300263F43 /* BLE.swift */; };
+		8A6804DA217E5CA300263F43 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6804D8217E5CA300263F43 /* TableViewController.swift */; };
+		90A9311A017D930ED658A807 /* Pods_Bluetooth_Arduino_Sensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C6EF4847237504512DD433 /* Pods_Bluetooth_Arduino_Sensing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6804BB217E5A2000263F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A68049E217E5A1E00263F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6804A5217E5A1E00263F43;
+			remoteInfo = Bluetooth_Arduino_Sensing;
+		};
+		8A6804C6217E5A2000263F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A68049E217E5A1E00263F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6804A5217E5A1E00263F43;
+			remoteInfo = Bluetooth_Arduino_Sensing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180457E6DD97B768DEB929BC /* Pods-Bluetooth_Arduino_SensingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_SensingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_SensingTests/Pods-Bluetooth_Arduino_SensingTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DCFA4B6EB5D41BD49C5FC1F /* Pods-Bluetooth_Arduino_Sensing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_Sensing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_Sensing/Pods-Bluetooth_Arduino_Sensing.debug.xcconfig"; sourceTree = "<group>"; };
+		47604DBF85FBE84C70C8705A /* Pods_Bluetooth_Arduino_SensingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluetooth_Arduino_SensingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FE01FBC8C0FF9651015A5B /* Pods-Bluetooth_Arduino_Sensing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_Sensing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_Sensing/Pods-Bluetooth_Arduino_Sensing.release.xcconfig"; sourceTree = "<group>"; };
+		8A6804A6217E5A1F00263F43 /* Bluetooth_Arduino_Sensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth_Arduino_Sensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6804A9217E5A1F00263F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A6804AB217E5A1F00263F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A6804AE217E5A1F00263F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6804B0217E5A2000263F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6804B3217E5A2000263F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6804B5217E5A2000263F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6804BA217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluetooth_Arduino_SensingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6804BE217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_Arduino_SensingTests.swift; sourceTree = "<group>"; };
+		8A6804C0217E5A2000263F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6804C5217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bluetooth_Arduino_SensingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6804C9217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_Arduino_SensingUITests.swift; sourceTree = "<group>"; };
+		8A6804CB217E5A2000263F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6804D7217E5CA300263F43 /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		8A6804D8217E5CA300263F43 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9655101CEED2920D0F84A256 /* Pods-Bluetooth_Arduino_SensingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_SensingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_SensingUITests/Pods-Bluetooth_Arduino_SensingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C23AC2D25E7B57CEA35E11F7 /* Pods-Bluetooth_Arduino_SensingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_SensingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_SensingTests/Pods-Bluetooth_Arduino_SensingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C6EF4847237504512DD433 /* Pods_Bluetooth_Arduino_Sensing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluetooth_Arduino_Sensing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB075A47707EC1580C0634F3 /* Pods-Bluetooth_Arduino_SensingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetooth_Arduino_SensingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bluetooth_Arduino_SensingUITests/Pods-Bluetooth_Arduino_SensingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF409E1CFFCE420D11EC93B9 /* Pods_Bluetooth_Arduino_SensingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluetooth_Arduino_SensingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6804A3217E5A1E00263F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A9311A017D930ED658A807 /* Pods_Bluetooth_Arduino_Sensing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804B7217E5A2000263F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719DDCCB4A820EAF71DC0A6F /* Pods_Bluetooth_Arduino_SensingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804C2217E5A2000263F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795D7331A94D6EF0439EE986 /* Pods_Bluetooth_Arduino_SensingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8739FAF7DDB4096C1490BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DCFA4B6EB5D41BD49C5FC1F /* Pods-Bluetooth_Arduino_Sensing.debug.xcconfig */,
+				65FE01FBC8C0FF9651015A5B /* Pods-Bluetooth_Arduino_Sensing.release.xcconfig */,
+				C23AC2D25E7B57CEA35E11F7 /* Pods-Bluetooth_Arduino_SensingTests.debug.xcconfig */,
+				180457E6DD97B768DEB929BC /* Pods-Bluetooth_Arduino_SensingTests.release.xcconfig */,
+				EB075A47707EC1580C0634F3 /* Pods-Bluetooth_Arduino_SensingUITests.debug.xcconfig */,
+				9655101CEED2920D0F84A256 /* Pods-Bluetooth_Arduino_SensingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A68049D217E5A1E00263F43 = {
+			isa = PBXGroup;
+			children = (
+				8A6804A8217E5A1F00263F43 /* Bluetooth_Arduino_Sensing */,
+				8A6804BD217E5A2000263F43 /* Bluetooth_Arduino_SensingTests */,
+				8A6804C8217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests */,
+				8A6804A7217E5A1F00263F43 /* Products */,
+				7D8739FAF7DDB4096C1490BE /* Pods */,
+				EDC577A076E9F8241F67F294 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6804A7217E5A1F00263F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6804A6217E5A1F00263F43 /* Bluetooth_Arduino_Sensing.app */,
+				8A6804BA217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.xctest */,
+				8A6804C5217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6804A8217E5A1F00263F43 /* Bluetooth_Arduino_Sensing */ = {
+			isa = PBXGroup;
+			children = (
+				8A6804D7217E5CA300263F43 /* BLE.swift */,
+				8A6804D8217E5CA300263F43 /* TableViewController.swift */,
+				8A6804A9217E5A1F00263F43 /* AppDelegate.swift */,
+				8A6804AB217E5A1F00263F43 /* ViewController.swift */,
+				8A6804AD217E5A1F00263F43 /* Main.storyboard */,
+				8A6804B0217E5A2000263F43 /* Assets.xcassets */,
+				8A6804B2217E5A2000263F43 /* LaunchScreen.storyboard */,
+				8A6804B5217E5A2000263F43 /* Info.plist */,
+			);
+			path = Bluetooth_Arduino_Sensing;
+			sourceTree = "<group>";
+		};
+		8A6804BD217E5A2000263F43 /* Bluetooth_Arduino_SensingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6804BE217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.swift */,
+				8A6804C0217E5A2000263F43 /* Info.plist */,
+			);
+			path = Bluetooth_Arduino_SensingTests;
+			sourceTree = "<group>";
+		};
+		8A6804C8217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6804C9217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.swift */,
+				8A6804CB217E5A2000263F43 /* Info.plist */,
+			);
+			path = Bluetooth_Arduino_SensingUITests;
+			sourceTree = "<group>";
+		};
+		EDC577A076E9F8241F67F294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C6EF4847237504512DD433 /* Pods_Bluetooth_Arduino_Sensing.framework */,
+				FF409E1CFFCE420D11EC93B9 /* Pods_Bluetooth_Arduino_SensingTests.framework */,
+				47604DBF85FBE84C70C8705A /* Pods_Bluetooth_Arduino_SensingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6804A5217E5A1E00263F43 /* Bluetooth_Arduino_Sensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6804CE217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_Sensing" */;
+			buildPhases = (
+				A4E3C1E6840F926FA31EB0F8 /* [CP] Check Pods Manifest.lock */,
+				8A6804A2217E5A1E00263F43 /* Sources */,
+				8A6804A3217E5A1E00263F43 /* Frameworks */,
+				8A6804A4217E5A1E00263F43 /* Resources */,
+				1CAF980E1BE6C4E13938ED7B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth_Arduino_Sensing;
+			productName = Bluetooth_Arduino_Sensing;
+			productReference = 8A6804A6217E5A1F00263F43 /* Bluetooth_Arduino_Sensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6804B9217E5A2000263F43 /* Bluetooth_Arduino_SensingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6804D1217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_SensingTests" */;
+			buildPhases = (
+				2F86BE2CF2CE9E8023F70C2D /* [CP] Check Pods Manifest.lock */,
+				8A6804B6217E5A2000263F43 /* Sources */,
+				8A6804B7217E5A2000263F43 /* Frameworks */,
+				8A6804B8217E5A2000263F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6804BC217E5A2000263F43 /* PBXTargetDependency */,
+			);
+			name = Bluetooth_Arduino_SensingTests;
+			productName = Bluetooth_Arduino_SensingTests;
+			productReference = 8A6804BA217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6804C4217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6804D4217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_SensingUITests" */;
+			buildPhases = (
+				5172C35C7121E54B7023BE08 /* [CP] Check Pods Manifest.lock */,
+				8A6804C1217E5A2000263F43 /* Sources */,
+				8A6804C2217E5A2000263F43 /* Frameworks */,
+				8A6804C3217E5A2000263F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6804C7217E5A2000263F43 /* PBXTargetDependency */,
+			);
+			name = Bluetooth_Arduino_SensingUITests;
+			productName = Bluetooth_Arduino_SensingUITests;
+			productReference = 8A6804C5217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A68049E217E5A1E00263F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dhaval Gogri";
+				TargetAttributes = {
+					8A6804A5217E5A1E00263F43 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8A6804B9217E5A2000263F43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8A6804A5217E5A1E00263F43;
+					};
+					8A6804C4217E5A2000263F43 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8A6804A5217E5A1E00263F43;
+					};
+				};
+			};
+			buildConfigurationList = 8A6804A1217E5A1E00263F43 /* Build configuration list for PBXProject "Bluetooth_Arduino_Sensing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A68049D217E5A1E00263F43;
+			productRefGroup = 8A6804A7217E5A1F00263F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6804A5217E5A1E00263F43 /* Bluetooth_Arduino_Sensing */,
+				8A6804B9217E5A2000263F43 /* Bluetooth_Arduino_SensingTests */,
+				8A6804C4217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6804A4217E5A1E00263F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6804B4217E5A2000263F43 /* LaunchScreen.storyboard in Resources */,
+				8A6804B1217E5A2000263F43 /* Assets.xcassets in Resources */,
+				8A6804AF217E5A1F00263F43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804B8217E5A2000263F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804C3217E5A2000263F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CAF980E1BE6C4E13938ED7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bluetooth_Arduino_Sensing/Pods-Bluetooth_Arduino_Sensing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bluetooth_Arduino_Sensing/Pods-Bluetooth_Arduino_Sensing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F86BE2CF2CE9E8023F70C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bluetooth_Arduino_SensingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5172C35C7121E54B7023BE08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bluetooth_Arduino_SensingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E3C1E6840F926FA31EB0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bluetooth_Arduino_Sensing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6804A2217E5A1E00263F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6804AC217E5A1F00263F43 /* ViewController.swift in Sources */,
+				8A6804D9217E5CA300263F43 /* BLE.swift in Sources */,
+				8A6804AA217E5A1F00263F43 /* AppDelegate.swift in Sources */,
+				8A6804DA217E5CA300263F43 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804B6217E5A2000263F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6804BF217E5A2000263F43 /* Bluetooth_Arduino_SensingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6804C1217E5A2000263F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6804CA217E5A2000263F43 /* Bluetooth_Arduino_SensingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6804BC217E5A2000263F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6804A5217E5A1E00263F43 /* Bluetooth_Arduino_Sensing */;
+			targetProxy = 8A6804BB217E5A2000263F43 /* PBXContainerItemProxy */;
+		};
+		8A6804C7217E5A2000263F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6804A5217E5A1E00263F43 /* Bluetooth_Arduino_Sensing */;
+			targetProxy = 8A6804C6217E5A2000263F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6804AD217E5A1F00263F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6804AE217E5A1F00263F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6804B2217E5A2000263F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6804B3217E5A2000263F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6804CC217E5A2000263F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A6804CD217E5A2000263F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6804CF217E5A2000263F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCFA4B6EB5D41BD49C5FC1F /* Pods-Bluetooth_Arduino_Sensing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_Sensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-Sensing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6804D0217E5A2000263F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FE01FBC8C0FF9651015A5B /* Pods-Bluetooth_Arduino_Sensing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_Sensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-Sensing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A6804D2217E5A2000263F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23AC2D25E7B57CEA35E11F7 /* Pods-Bluetooth_Arduino_SensingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_SensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-SensingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth_Arduino_Sensing.app/Bluetooth_Arduino_Sensing";
+			};
+			name = Debug;
+		};
+		8A6804D3217E5A2000263F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180457E6DD97B768DEB929BC /* Pods-Bluetooth_Arduino_SensingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_SensingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-SensingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth_Arduino_Sensing.app/Bluetooth_Arduino_Sensing";
+			};
+			name = Release;
+		};
+		8A6804D5217E5A2000263F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB075A47707EC1580C0634F3 /* Pods-Bluetooth_Arduino_SensingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_SensingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-SensingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bluetooth_Arduino_Sensing;
+			};
+			name = Debug;
+		};
+		8A6804D6217E5A2000263F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9655101CEED2920D0F84A256 /* Pods-Bluetooth_Arduino_SensingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = Bluetooth_Arduino_SensingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dhaval.bluetooth-arduino-sensing.Bluetooth-Arduino-SensingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bluetooth_Arduino_Sensing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6804A1217E5A1E00263F43 /* Build configuration list for PBXProject "Bluetooth_Arduino_Sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6804CC217E5A2000263F43 /* Debug */,
+				8A6804CD217E5A2000263F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6804CE217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_Sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6804CF217E5A2000263F43 /* Debug */,
+				8A6804D0217E5A2000263F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6804D1217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_SensingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6804D2217E5A2000263F43 /* Debug */,
+				8A6804D3217E5A2000263F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6804D4217E5A2000263F43 /* Build configuration list for PBXNativeTarget "Bluetooth_Arduino_SensingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6804D5217E5A2000263F43 /* Debug */,
+				8A6804D6217E5A2000263F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A68049E217E5A1E00263F43 /* Project object */;
+}
