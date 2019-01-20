@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11ABA69EE15726093CB397AE /* Pods_Rock_Paper_Scissor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AEC21CC8217F81986A2FD9 /* Pods_Rock_Paper_Scissor.framework */; };
+		1464B66558A54A927E633510 /* Pods_Rock_Paper_ScissorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41880B9FD1A836734DE5410A /* Pods_Rock_Paper_ScissorUITests.framework */; };
+		8A287D2821B44A8C00A71D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D2721B44A8C00A71D9E /* AppDelegate.swift */; };
+		8A287D2A21B44A8C00A71D9E /* SignInRegisterUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D2921B44A8C00A71D9E /* SignInRegisterUpdateViewController.swift */; };
+		8A287D2D21B44A8C00A71D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A287D2B21B44A8C00A71D9E /* Main.storyboard */; };
+		8A287D2F21B44A8D00A71D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A287D2E21B44A8D00A71D9E /* Assets.xcassets */; };
+		8A287D3221B44A8D00A71D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A287D3021B44A8D00A71D9E /* LaunchScreen.storyboard */; };
+		8A287D3D21B44A8E00A71D9E /* Rock_Paper_ScissorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D3C21B44A8E00A71D9E /* Rock_Paper_ScissorTests.swift */; };
+		8A287D4821B44A8E00A71D9E /* Rock_Paper_ScissorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D4721B44A8E00A71D9E /* Rock_Paper_ScissorUITests.swift */; };
+		8A287D5621B44E1F00A71D9E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D5521B44E1F00A71D9E /* Utils.swift */; };
+		8A287D5E21B74A3E00A71D9E /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D5D21B74A3E00A71D9E /* DashBoardViewController.swift */; };
+		8A287D6221B752C500A71D9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D6121B752C500A71D9E /* Constants.swift */; };
+		8A287D6421B76D5700A71D9E /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A287D6321B76D5700A71D9E /* PlayGameViewController.swift */; };
+		8A5D547B21B9A06A000AD7F6 /* ListOfAvailablePlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D547A21B9A06A000AD7F6 /* ListOfAvailablePlayersTableViewController.swift */; };
+		8A5D547D21B9A3A8000AD7F6 /* AvailablePlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D547C21B9A3A8000AD7F6 /* AvailablePlayerList.swift */; };
+		8A5D547F21B9B7CB000AD7F6 /* PedoMeterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D547E21B9B7CB000AD7F6 /* PedoMeterInfo.swift */; };
+		8A5D548121BA0A32000AD7F6 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D548021BA0A32000AD7F6 /* SocketManager.swift */; };
+		8A8FEE1E21BC570700C05AE4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8FEE1D21BC570700C05AE4 /* HealthKit.framework */; };
+		8A8FEE2121BC989200C05AE4 /* TournamentPlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FEE2021BC989200C05AE4 /* TournamentPlayersTableViewController.swift */; };
+		8A8FEE2321BC9BD300C05AE4 /* TournamentDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FEE2221BC9BD300C05AE4 /* TournamentDashboardViewController.swift */; };
+		C1AEB7C0B072030B388D7A8A /* Pods_Rock_Paper_ScissorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE97EEB33E89A865C192CB /* Pods_Rock_Paper_ScissorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A287D3921B44A8E00A71D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A287D1C21B44A8C00A71D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A287D2321B44A8C00A71D9E;
+			remoteInfo = "Rock Paper Scissor";
+		};
+		8A287D4421B44A8E00A71D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A287D1C21B44A8C00A71D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A287D2321B44A8C00A71D9E;
+			remoteInfo = "Rock Paper Scissor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2515BF5E0D16AF7327F6850C /* Pods-Rock Paper ScissorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper ScissorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper ScissorUITests/Pods-Rock Paper ScissorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26AEC21CC8217F81986A2FD9 /* Pods_Rock_Paper_Scissor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rock_Paper_Scissor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3664FFA30365E44A86E6031B /* Pods-Rock Paper Scissor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper Scissor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper Scissor/Pods-Rock Paper Scissor.debug.xcconfig"; sourceTree = "<group>"; };
+		39A7055B81712A7EDCFA35BF /* Pods-Rock Paper ScissorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper ScissorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper ScissorUITests/Pods-Rock Paper ScissorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41880B9FD1A836734DE5410A /* Pods_Rock_Paper_ScissorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rock_Paper_ScissorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BBA090841FC637A95B0C4D /* Pods-Rock Paper Scissor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper Scissor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper Scissor/Pods-Rock Paper Scissor.release.xcconfig"; sourceTree = "<group>"; };
+		8A287D2421B44A8C00A71D9E /* Rock Paper Scissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A287D2721B44A8C00A71D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A287D2921B44A8C00A71D9E /* SignInRegisterUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRegisterUpdateViewController.swift; sourceTree = "<group>"; };
+		8A287D2C21B44A8C00A71D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A287D2E21B44A8D00A71D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A287D3121B44A8D00A71D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A287D3321B44A8D00A71D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A287D3821B44A8E00A71D9E /* Rock Paper ScissorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A287D3C21B44A8E00A71D9E /* Rock_Paper_ScissorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorTests.swift; sourceTree = "<group>"; };
+		8A287D3E21B44A8E00A71D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A287D4321B44A8E00A71D9E /* Rock Paper ScissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A287D4721B44A8E00A71D9E /* Rock_Paper_ScissorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorUITests.swift; sourceTree = "<group>"; };
+		8A287D4921B44A8E00A71D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A287D5521B44E1F00A71D9E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8A287D5D21B74A3E00A71D9E /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		8A287D6121B752C500A71D9E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A287D6321B76D5700A71D9E /* PlayGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		8A5D547A21B9A06A000AD7F6 /* ListOfAvailablePlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAvailablePlayersTableViewController.swift; sourceTree = "<group>"; };
+		8A5D547C21B9A3A8000AD7F6 /* AvailablePlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailablePlayerList.swift; sourceTree = "<group>"; };
+		8A5D547E21B9B7CB000AD7F6 /* PedoMeterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedoMeterInfo.swift; sourceTree = "<group>"; };
+		8A5D548021BA0A32000AD7F6 /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		8A8FEE1D21BC570700C05AE4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		8A8FEE1F21BC570700C05AE4 /* Rock Paper Scissor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rock Paper Scissor.entitlements"; sourceTree = "<group>"; };
+		8A8FEE2021BC989200C05AE4 /* TournamentPlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentPlayersTableViewController.swift; sourceTree = "<group>"; };
+		8A8FEE2221BC9BD300C05AE4 /* TournamentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDashboardViewController.swift; sourceTree = "<group>"; };
+		9C34417525B053E6A7AB9A2C /* Pods-Rock Paper ScissorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper ScissorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper ScissorTests/Pods-Rock Paper ScissorTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F07F7C00BCC8C5DB9E045CB /* Pods-Rock Paper ScissorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rock Paper ScissorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rock Paper ScissorTests/Pods-Rock Paper ScissorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAE97EEB33E89A865C192CB /* Pods_Rock_Paper_ScissorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rock_Paper_ScissorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A287D2121B44A8C00A71D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ABA69EE15726093CB397AE /* Pods_Rock_Paper_Scissor.framework in Frameworks */,
+				8A8FEE1E21BC570700C05AE4 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D3521B44A8E00A71D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AEB7C0B072030B388D7A8A /* Pods_Rock_Paper_ScissorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D4021B44A8E00A71D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1464B66558A54A927E633510 /* Pods_Rock_Paper_ScissorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A287D1B21B44A8C00A71D9E = {
+			isa = PBXGroup;
+			children = (
+				8A287D2621B44A8C00A71D9E /* Rock Paper Scissor */,
+				8A287D3B21B44A8E00A71D9E /* Rock Paper ScissorTests */,
+				8A287D4621B44A8E00A71D9E /* Rock Paper ScissorUITests */,
+				8A287D2521B44A8C00A71D9E /* Products */,
+				8C37406E73796219C1C1C629 /* Pods */,
+				BF77466E8BB571012E50B5AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A287D2521B44A8C00A71D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A287D2421B44A8C00A71D9E /* Rock Paper Scissor.app */,
+				8A287D3821B44A8E00A71D9E /* Rock Paper ScissorTests.xctest */,
+				8A287D4321B44A8E00A71D9E /* Rock Paper ScissorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A287D2621B44A8C00A71D9E /* Rock Paper Scissor */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FEE1F21BC570700C05AE4 /* Rock Paper Scissor.entitlements */,
+				8A5D547A21B9A06A000AD7F6 /* ListOfAvailablePlayersTableViewController.swift */,
+				8A8FEE2021BC989200C05AE4 /* TournamentPlayersTableViewController.swift */,
+				8A8FEE2221BC9BD300C05AE4 /* TournamentDashboardViewController.swift */,
+				8A287D5521B44E1F00A71D9E /* Utils.swift */,
+				8A287D2721B44A8C00A71D9E /* AppDelegate.swift */,
+				8A287D2921B44A8C00A71D9E /* SignInRegisterUpdateViewController.swift */,
+				8A287D2B21B44A8C00A71D9E /* Main.storyboard */,
+				8A287D2E21B44A8D00A71D9E /* Assets.xcassets */,
+				8A287D3021B44A8D00A71D9E /* LaunchScreen.storyboard */,
+				8A287D3321B44A8D00A71D9E /* Info.plist */,
+				8A287D5D21B74A3E00A71D9E /* DashBoardViewController.swift */,
+				8A287D6321B76D5700A71D9E /* PlayGameViewController.swift */,
+				8A287D6121B752C500A71D9E /* Constants.swift */,
+				8A5D547C21B9A3A8000AD7F6 /* AvailablePlayerList.swift */,
+				8A5D547E21B9B7CB000AD7F6 /* PedoMeterInfo.swift */,
+				8A5D548021BA0A32000AD7F6 /* SocketManager.swift */,
+			);
+			path = "Rock Paper Scissor";
+			sourceTree = "<group>";
+		};
+		8A287D3B21B44A8E00A71D9E /* Rock Paper ScissorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A287D3C21B44A8E00A71D9E /* Rock_Paper_ScissorTests.swift */,
+				8A287D3E21B44A8E00A71D9E /* Info.plist */,
+			);
+			path = "Rock Paper ScissorTests";
+			sourceTree = "<group>";
+		};
+		8A287D4621B44A8E00A71D9E /* Rock Paper ScissorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A287D4721B44A8E00A71D9E /* Rock_Paper_ScissorUITests.swift */,
+				8A287D4921B44A8E00A71D9E /* Info.plist */,
+			);
+			path = "Rock Paper ScissorUITests";
+			sourceTree = "<group>";
+		};
+		8C37406E73796219C1C1C629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3664FFA30365E44A86E6031B /* Pods-Rock Paper Scissor.debug.xcconfig */,
+				58BBA090841FC637A95B0C4D /* Pods-Rock Paper Scissor.release.xcconfig */,
+				9F07F7C00BCC8C5DB9E045CB /* Pods-Rock Paper ScissorTests.debug.xcconfig */,
+				9C34417525B053E6A7AB9A2C /* Pods-Rock Paper ScissorTests.release.xcconfig */,
+				2515BF5E0D16AF7327F6850C /* Pods-Rock Paper ScissorUITests.debug.xcconfig */,
+				39A7055B81712A7EDCFA35BF /* Pods-Rock Paper ScissorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF77466E8BB571012E50B5AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FEE1D21BC570700C05AE4 /* HealthKit.framework */,
+				26AEC21CC8217F81986A2FD9 /* Pods_Rock_Paper_Scissor.framework */,
+				FCAE97EEB33E89A865C192CB /* Pods_Rock_Paper_ScissorTests.framework */,
+				41880B9FD1A836734DE5410A /* Pods_Rock_Paper_ScissorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A287D2321B44A8C00A71D9E /* Rock Paper Scissor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A287D4C21B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper Scissor" */;
+			buildPhases = (
+				10267A19DF6E275321BC0AAE /* [CP] Check Pods Manifest.lock */,
+				8A287D2021B44A8C00A71D9E /* Sources */,
+				8A287D2121B44A8C00A71D9E /* Frameworks */,
+				8A287D2221B44A8C00A71D9E /* Resources */,
+				F3E4DB8BAE9900AEAD25E808 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock Paper Scissor";
+			productName = "Rock Paper Scissor";
+			productReference = 8A287D2421B44A8C00A71D9E /* Rock Paper Scissor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A287D3721B44A8E00A71D9E /* Rock Paper ScissorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A287D4F21B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper ScissorTests" */;
+			buildPhases = (
+				BEB3CA5FB16DED63C51AAD22 /* [CP] Check Pods Manifest.lock */,
+				8A287D3421B44A8E00A71D9E /* Sources */,
+				8A287D3521B44A8E00A71D9E /* Frameworks */,
+				8A287D3621B44A8E00A71D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A287D3A21B44A8E00A71D9E /* PBXTargetDependency */,
+			);
+			name = "Rock Paper ScissorTests";
+			productName = "Rock Paper ScissorTests";
+			productReference = 8A287D3821B44A8E00A71D9E /* Rock Paper ScissorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A287D4221B44A8E00A71D9E /* Rock Paper ScissorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A287D5221B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper ScissorUITests" */;
+			buildPhases = (
+				AC56B548EE9C62DF5F1DD2FB /* [CP] Check Pods Manifest.lock */,
+				8A287D3F21B44A8E00A71D9E /* Sources */,
+				8A287D4021B44A8E00A71D9E /* Frameworks */,
+				8A287D4121B44A8E00A71D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A287D4521B44A8E00A71D9E /* PBXTargetDependency */,
+			);
+			name = "Rock Paper ScissorUITests";
+			productName = "Rock Paper ScissorUITests";
+			productReference = 8A287D4321B44A8E00A71D9E /* Rock Paper ScissorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A287D1C21B44A8C00A71D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dhaval Gogri";
+				TargetAttributes = {
+					8A287D2321B44A8C00A71D9E = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					8A287D3721B44A8E00A71D9E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8A287D2321B44A8C00A71D9E;
+					};
+					8A287D4221B44A8E00A71D9E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8A287D2321B44A8C00A71D9E;
+					};
+				};
+			};
+			buildConfigurationList = 8A287D1F21B44A8C00A71D9E /* Build configuration list for PBXProject "Rock Paper Scissor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A287D1B21B44A8C00A71D9E;
+			productRefGroup = 8A287D2521B44A8C00A71D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A287D2321B44A8C00A71D9E /* Rock Paper Scissor */,
+				8A287D3721B44A8E00A71D9E /* Rock Paper ScissorTests */,
+				8A287D4221B44A8E00A71D9E /* Rock Paper ScissorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A287D2221B44A8C00A71D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A287D3221B44A8D00A71D9E /* LaunchScreen.storyboard in Resources */,
+				8A287D2F21B44A8D00A71D9E /* Assets.xcassets in Resources */,
+				8A287D2D21B44A8C00A71D9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D3621B44A8E00A71D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D4121B44A8E00A71D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10267A19DF6E275321BC0AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rock Paper Scissor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC56B548EE9C62DF5F1DD2FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rock Paper ScissorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB3CA5FB16DED63C51AAD22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rock Paper ScissorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E4DB8BAE9900AEAD25E808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rock Paper Scissor/Pods-Rock Paper Scissor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rock Paper Scissor/Pods-Rock Paper Scissor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A287D2021B44A8C00A71D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8FEE2121BC989200C05AE4 /* TournamentPlayersTableViewController.swift in Sources */,
+				8A287D6221B752C500A71D9E /* Constants.swift in Sources */,
+				8A287D2A21B44A8C00A71D9E /* SignInRegisterUpdateViewController.swift in Sources */,
+				8A5D547F21B9B7CB000AD7F6 /* PedoMeterInfo.swift in Sources */,
+				8A5D547B21B9A06A000AD7F6 /* ListOfAvailablePlayersTableViewController.swift in Sources */,
+				8A5D548121BA0A32000AD7F6 /* SocketManager.swift in Sources */,
+				8A8FEE2321BC9BD300C05AE4 /* TournamentDashboardViewController.swift in Sources */,
+				8A287D6421B76D5700A71D9E /* PlayGameViewController.swift in Sources */,
+				8A287D2821B44A8C00A71D9E /* AppDelegate.swift in Sources */,
+				8A287D5E21B74A3E00A71D9E /* DashBoardViewController.swift in Sources */,
+				8A5D547D21B9A3A8000AD7F6 /* AvailablePlayerList.swift in Sources */,
+				8A287D5621B44E1F00A71D9E /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D3421B44A8E00A71D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A287D3D21B44A8E00A71D9E /* Rock_Paper_ScissorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A287D3F21B44A8E00A71D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A287D4821B44A8E00A71D9E /* Rock_Paper_ScissorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A287D3A21B44A8E00A71D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A287D2321B44A8C00A71D9E /* Rock Paper Scissor */;
+			targetProxy = 8A287D3921B44A8E00A71D9E /* PBXContainerItemProxy */;
+		};
+		8A287D4521B44A8E00A71D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A287D2321B44A8C00A71D9E /* Rock Paper Scissor */;
+			targetProxy = 8A287D4421B44A8E00A71D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A287D2B21B44A8C00A71D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A287D2C21B44A8C00A71D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A287D3021B44A8D00A71D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A287D3121B44A8D00A71D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A287D4A21B44A8E00A71D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A287D4B21B44A8E00A71D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A287D4D21B44A8E00A71D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3664FFA30365E44A86E6031B /* Pods-Rock Paper Scissor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rock Paper Scissor/Rock Paper Scissor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper Scissor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dr.rps.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A287D4E21B44A8E00A71D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BBA090841FC637A95B0C4D /* Pods-Rock Paper Scissor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rock Paper Scissor/Rock Paper Scissor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper Scissor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dr.rps.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A287D5021B44A8E00A71D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F07F7C00BCC8C5DB9E045CB /* Pods-Rock Paper ScissorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper ScissorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dr.rps.Rock-Paper-ScissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Paper Scissor.app/Rock Paper Scissor";
+			};
+			name = Debug;
+		};
+		8A287D5121B44A8E00A71D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C34417525B053E6A7AB9A2C /* Pods-Rock Paper ScissorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper ScissorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dr.rps.Rock-Paper-ScissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Paper Scissor.app/Rock Paper Scissor";
+			};
+			name = Release;
+		};
+		8A287D5321B44A8E00A71D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2515BF5E0D16AF7327F6850C /* Pods-Rock Paper ScissorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper ScissorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dr.rps.Rock-Paper-ScissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rock Paper Scissor";
+			};
+			name = Debug;
+		};
+		8A287D5421B44A8E00A71D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A7055B81712A7EDCFA35BF /* Pods-Rock Paper ScissorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCQG8KRC2T;
+				INFOPLIST_FILE = "Rock Paper ScissorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dr.rps.Rock-Paper-ScissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rock Paper Scissor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A287D1F21B44A8C00A71D9E /* Build configuration list for PBXProject "Rock Paper Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A287D4A21B44A8E00A71D9E /* Debug */,
+				8A287D4B21B44A8E00A71D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A287D4C21B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A287D4D21B44A8E00A71D9E /* Debug */,
+				8A287D4E21B44A8E00A71D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A287D4F21B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper ScissorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A287D5021B44A8E00A71D9E /* Debug */,
+				8A287D5121B44A8E00A71D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A287D5221B44A8E00A71D9E /* Build configuration list for PBXNativeTarget "Rock Paper ScissorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A287D5321B44A8E00A71D9E /* Debug */,
+				8A287D5421B44A8E00A71D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A287D1C21B44A8C00A71D9E /* Project object */;
+}
